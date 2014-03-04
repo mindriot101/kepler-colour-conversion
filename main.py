@@ -43,9 +43,9 @@ def spectral_types():
             yield (typ, temperatures_grey[typ])
 
 def build_planet_list():
-    fname = os.path.join(os.path.dirname(__file__), 'data', 'planets.csv')
+    fname = os.path.join(os.path.dirname(__file__), 'data', 'planets_full.csv')
     df = pd.read_table(fname, sep=',')
-    df['correction_factor'] = df.V - df.KP
+    df['correction_factor'] = (df.V - df.KP) - df.EBMINUSV
     return df
 
 def main():
