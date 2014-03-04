@@ -3,12 +3,23 @@ Kepler to V magnitude colour conversions
 
 We use the Pickles library to compute the V-Kp magnitude colour for a range of spectral types.
 
-
-
 Results
 -------
 
+The following image shows the conversion between effective temperature and V-Kp colour (red). Also shown are any planets with a measured V magnitude, Kepler magnitude and effective temperature [from exoplanets.org](http://exoplanets.org).
+
 ![Mapping](https://raw.github.com/mindriot101/kepler-colour-conversion/master/output/plot.png)
+
+We note that the planets show significant deviation from the proposed relation, for (at least) two reasons:
+
+1. interstellar reddening is not accounted for
+2. stellar age is not accounted for
+
+The first point means that true values are likely to be redder (more positive) than shown, which is particularly the case for planets below the red points. The extremely blue objects are more distant (determined through colouring the points with distance, which we assume is a good proxy for reddening, but this measurement is uncertain) than the redder objects so after correcting for reddening are likely to lie closer to the red points.
+
+The second point moves points horizontally and may move other discrepant points closer to the red points.
+
+The table below lists the relation.
 
 Effective temperature | V-Kp
 -----|----------------------
