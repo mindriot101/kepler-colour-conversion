@@ -49,3 +49,15 @@ Effective temperature | V-Kp
 9727 | -0.13143335219317986
 12632 | -0.14035582718771256
 35914 | -0.1990741678903829
+
+Running the code
+----------------
+
+Once requirements are met, the code should be self-contained so just run `main.py`.
+
+### Requirements
+
+* numpy
+* matplotlib
+* pandas
+* Jon Girven's `jg.spectra` module
