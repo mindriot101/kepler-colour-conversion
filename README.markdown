@@ -19,6 +19,8 @@ The first point means that true values are likely to be redder (more positive) t
 
 The second point moves points horizontally and may move other discrepant points closer to the red points.
 
+*A note about colours*: formally the colours are AB colours, which may affect the points if they were quoted in Vega magnitudes.
+
 The table below lists the relation.
 
 Effective temperature | V-Kp
