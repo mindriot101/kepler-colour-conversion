@@ -15,7 +15,9 @@ We note that the planets show significant deviation from the proposed relation, 
 1. interstellar reddening is not accounted for
 2. stellar age is not accounted for
 
-The first point means that true values are likely to be redder (more positive) than shown, which is particularly the case for planets below the red points. The extremely blue objects are more distant (determined through colouring the points with distance, which we assume is a good proxy for reddening, but this measurement is uncertain) than the redder objects so after correcting for reddening are likely to lie closer to the red points.
+~~The first point means that true values are likely to be redder (more positive) than shown, which is particularly the case for planets below the red points. The extremely blue objects are more distant (determined through colouring the points with distance, which we assume is a good proxy for reddening, but this measurement is uncertain) than the redder objects so after correcting for reddening are likely to lie closer to the red points.~~
+
+Interstellar reddening would have the effect of shifting the blue points *downwards* as they have been measured as redder than their true values. The blue points below the red ones I cannot explain.
 
 The second point moves points horizontally and may move other discrepant points closer to the red points.
 
